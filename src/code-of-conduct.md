@@ -21,3 +21,5 @@ To join, you must:
 *   Have an RSS (any version, or ATOM) feed for said website (you have to be able to access it via your website).
 *   Be a bit active on your feed (a couple updates a year is the minimum, just don't abandon it).
 *   Have fun!! Make as many updates as you want, promoting your projects is encouraged.
+
+[Go back](https://rssring.netlify.app)
