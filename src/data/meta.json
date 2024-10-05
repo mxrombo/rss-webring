@@ -1,7 +1,6 @@
 {
     "title": "The RSS Webring",
     "description": "A webring for people who have an RSS feed for their personal website.",
-    "image": "rsswebring.jpg",
     "url": "https://rssring.netlify.app/",
     "repo": "https://github.com/mxrombo/rss-webring",
     "admins": [
