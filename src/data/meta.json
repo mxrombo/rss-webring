@@ -2,7 +2,7 @@
     "title": "The RSS Webring",
     "description": "A webring for people who have an RSS feed for their personal website.",
     "image": "freakazoid.jpg",
-    "url": "https://webringdemo.netlify.com",
+    "url": "https://rssring.netlify.com",
     "repo": "https://github.com/mxrombo/rss-webring",
     "admins": [
         {
