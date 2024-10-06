@@ -26,13 +26,13 @@ $body-color: #0e0101;
 // Font, line-height, and color for body text, headings, and more.
 @font-face {
   font-family: 'MSSans'; // Choose a name for your font
-  src: url('../fonts/MSSansSerif8p.ttf') format('truetype'); // Use relative path to link the font
+  src: url('../../fonts/MSSansSerif8p.ttf') format('truetype'); // Use relative path to link the font
   font-weight: normal; // Specify font weight if applicable
   font-style: normal; // Specify font style if applicable
 }
 @font-face {
   font-family: 'MSSans'; // Choose a name for your font
-  src: url('../fonts/MSSansSerif8pbold.ttf') format('truetype'); // Use relative path to link the font
+  src: url('../../fonts/MSSansSerif8pbold.ttf') format('truetype'); // Use relative path to link the font
   font-weight: bold; // Specify font weight if applicable
   font-style: normal; // Specify font style if applicable
 }
