@@ -51,7 +51,8 @@ body {
 
         &__primary {
             padding: 2rem;
-            border-right: 1px solid $gray-lighter;
+            background-color: #474747;
+	    border: ridge #c9c9c9 4px;
         }
 
         &__secondary {
