@@ -2,12 +2,7 @@
     background-color: #474747;
     color: white;
     border: ridge #c9c9c9 4px;
-    box-shadow:
-        inset  -1px #0a0a0a,
-        inset 1px 1px #dfdfdf,
-        inset -2px -2px grey,
-        inset 2px 2px #fff;
-	gap: 5px;
+	padding: 1.5rem;
 
     &__field {
         margin-bottom: 1rem;
