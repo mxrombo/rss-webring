@@ -1,9 +1,13 @@
 .form {
-    background-color: #fff;
-    border-radius: 0.5rem;
-    border: 1px solid $gray-light;
-    box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
-    padding: 1.5rem;
+    background-color: #474747;
+    color: white;
+    border: ridge #c9c9c9 4px;
+    box-shadow:
+        inset  -1px #0a0a0a,
+        inset 1px 1px #dfdfdf,
+        inset -2px -2px grey,
+        inset 2px 2px #fff;
+	gap: 5px;
 
     &__field {
         margin-bottom: 1rem;
@@ -18,9 +22,8 @@
         display: block;
         width: 100%;
         font-size: 1rem;
-        border: 1px solid $gray-light;
-        border-radius: 0.25rem;
-        background-color: #fff;
+        border: ridge #c9c9c9 4px;
+        background-color: #161616;
         padding: 0.75rem 1rem;
     }
 }
