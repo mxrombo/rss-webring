@@ -24,12 +24,20 @@ $body-color: #0e0101;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
+@font-face {
+  font-family: 'MSSans'; // Choose a name for your font
+  src: url('../fonts/MSSansSerif8p.ttf') format('truetype'); // Use relative path to link the font
+  font-weight: normal; // Specify font weight if applicable
+  font-style: normal; // Specify font style if applicable
+}
+@font-face {
+  font-family: 'MSSans'; // Choose a name for your font
+  src: url('../fonts/MSSansSerif8pbold.ttf') format('truetype'); // Use relative path to link the font
+  font-weight: bold; // Specify font weight if applicable
+  font-style: normal; // Specify font style if applicable
+}
 
-$font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$font-family-monospace: Menlo, Monaco, Consolas, 'Andale Mono', 'Courier New',
-    monospace;
+$font-family-system: 'MSSans';
 
 $font-family-base: $font-family-system;
 $font-weight-base: 400;
