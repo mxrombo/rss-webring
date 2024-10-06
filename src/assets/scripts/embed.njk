@@ -33,15 +33,15 @@ class WebringBanner extends HTMLElement {
           }
   
           .webring-banner {
-            background: linear-gradient(0deg, rgba(0,2,22,1) 0%, rgba(0,0,0,1) 33%, rgba(50,4,4,1) 100%), url('https://i.imgur.com/O4j00XO.gif');
-            background-blend-mode: lighten;
-            border: ridge gray 3px;;
+            background-color: #161616;
+            border: ridge gray 4px;
             max-width:480px;
           }
 
           .webring-banner a {
             color: #ffe37d;
             text-decoration:none;
+            padding: 1rem;
           }
 
           .webring-banner a:hover,
@@ -58,15 +58,14 @@ class WebringBanner extends HTMLElement {
             text-align: center;
             font-size:1.25rem;
             font-weight: bold;
-            line-height:1.2;
+            line-height: 1;
           }
 
           .webring-banner__links {
             display:flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding-left: 0.2 rem;
-            padding-right: 0.2 rem;
+            margin: 0;
           }
 
           .webring-banner__link {
