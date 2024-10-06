@@ -7,9 +7,9 @@ body {
     font-family: $font-family-system;
     font-size: $font-size-base;
     line-height: $line-height-base;
-    color: $body-color;
+    color: #ffff;
     text-align: left;
-    background-color: $body-bg;
+    background-color: #0e0101;
 }
 
 .layout {
@@ -23,7 +23,8 @@ body {
     &__primary {
         flex: 1 0 auto;
         padding: 1rem;
-        background-color: #fff;
+        background: linear-gradient(0deg, rgba(0,2,22,1) 0%, rgba(0,0,0,1) 33%, rgba(50,4,4,1) 100%), url("https://i.imgur.com/O4j00XO.gif");
+	    background-blend-mode: lighten;
         box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
     }
 
